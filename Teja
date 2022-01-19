@@ -47,7 +47,8 @@ git commit -m "file3,4,5"--> to send files from index to local repo
 
 git log--> to check log details and commit id of three files
 
-adhv csamcnkfhwuf. nwbne f f mf ff
+git show cid--> to check the status of files in local repo.
+
 These commands are to send multiple files from local machine to index to local repo.
 
 ------------------------------------------------------
@@ -76,24 +77,3 @@ git status
 git log
 git push
 git rm -rf file name
-
-alias:
-=====
-we can create the shortcut for commands
-git log
-git config --global alias.l "log"
-git l
-
-git log --oneline
-git config --global alias.l1 "log --oneline"
-git l1
-
-git status
-git config --global alias.s "status"
-git s
-
-git config --list
-git config --global alias.cl "config --list"
-git cl
-
-git config --global --unset alias.cl
