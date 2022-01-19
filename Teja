@@ -1,3 +1,4 @@
+
 git init ( for specified path )
 git config --global user.name "Rohith Kumar Arrem"   ( to configure user name )
 git config --global user.email "rohithkumararrem76@gmail.com"  ( to email address )
@@ -50,8 +51,7 @@ git log--> to check log details and commit id of three files
 git show cid--> to check the status of files in local repo.
 
 These commands are to send multiple files from local machine to index to local repo.
-
-------------------------------------------------------
+agdsjbasa c cd c c 
 
 Commands to remove files.
 
@@ -77,3 +77,12 @@ git status
 git log
 git push
 git rm -rf file name
+
+
+diff merge/rebase
+------------------
+merge means it will see commit id message,
+rebase it will add ( MERGE ) IT WILL NOT SHOW ANYTHING 
+git merge branch-name
+git rebase branch-name
+git pull --rebase
